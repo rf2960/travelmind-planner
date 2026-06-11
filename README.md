@@ -8,14 +8,14 @@ Travel planning is open-ended, preference-heavy, and often iterative. TravelMind
 
 ## Repository Status
 
-This public repository currently presents the **system design, architecture diagrams, product screenshots, and demo assets** for the project. It should be understood as a portfolio-ready project showcase rather than a full production code release.
+This public repository contains the **system design, architecture diagrams, product screenshots, and demo assets** for the project. It should be read as a design and prototype documentation package rather than a full production code release.
 
-## Why This Project Matters
+## Project Context
 
-- Demonstrates product thinking for an AI-native planning workflow
-- Shows system design across user input, orchestration, enrichment, and refinement
-- Presents a multi-agent decomposition instead of a single monolithic prompt
-- Documents tradeoffs around reliability, transparency, and iterative interaction
+- Product workflow for an LLM-based planning assistant
+- System design across user input, orchestration, enrichment, and refinement
+- Multi-agent decomposition instead of a single monolithic prompt
+- Tradeoffs around reliability, transparency, and iterative interaction
 
 ## Key Features of the Proposed System
 
@@ -71,11 +71,10 @@ No installation is required to review the current public repository.
 - Review the screenshots in `docs/screenshots/` to understand the two core user flows.
 - Open the HTML files in `docs/architecture/` in a browser to review the visual design artifacts.
 - Read `docs/notes/dual_model_plan_enhancement.md` for the enhancement design note.
-- Use this repository as a portfolio artifact that communicates system thinking, AI workflow design, and architecture clarity.
 
 ## Example Review Flow
 
-If you are a recruiter, collaborator, or reviewer opening this project, the fastest way to evaluate it is:
+The fastest way to understand the project is:
 
 1. Read this README for context.
 2. Watch `docs/demo/TravelMind_demo.mp4`.
@@ -85,7 +84,7 @@ If you are a recruiter, collaborator, or reviewer opening this project, the fast
 
 ## Demo / Screenshots
 
-The strongest portfolio assets for this project are the end-to-end demo video and the four screenshots that show the main user journey from input to structured travel output.
+The demo video and screenshots show the main user journey from input to structured travel output.
 
 Included assets:
 
@@ -119,12 +118,12 @@ Watch the full walkthrough:
 
 ## Results / Evaluation
 
-This repository does not claim production metrics or benchmark results. Its current value is in:
+This repository does not claim production metrics or benchmark results. The current public materials focus on:
 
-- showing a polished AI product interface and end-to-end user flow
-- clearly communicating the system concept
-- documenting the multi-agent planning workflow
-- showing AI product design maturity and implementation planning
+- an AI product interface and end-to-end user flow
+- the system concept and planning modes
+- the multi-agent planning workflow
+- implementation notes and design tradeoffs
 
 ## Future Improvements
 
@@ -142,11 +141,3 @@ The documented system design references:
 - React / Next.js for frontend delivery
 - OpenAI models for structured itinerary generation
 - Hugging Face models for domain-specific enhancement ideas
-
-## Portfolio Review Summary
-
-For resume and recruiter visibility, the strongest framing is:
-
-- this is a thoughtful AI system design project
-- it demonstrates architecture, workflow decomposition, and product reasoning
-- it should not be presented as a finished public production system until the implementation code is included
